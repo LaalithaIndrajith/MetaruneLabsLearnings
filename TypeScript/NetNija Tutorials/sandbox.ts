@@ -38,3 +38,29 @@ let overTimeCal = (basicSalary:number, rosterPattern:number, otHours:number, otT
 }
 
 console.log(`Your salary Overtime allowances is -> ${overTimeCal(basicSalary, 23, 16, 2)}`);
+
+/* 
+    Explicit Types
+*/
+
+let employeeNum: number;
+let employeeID: string;
+let isPermanent: boolean;
+
+// Arrays
+let monthlyIndvidualIssueCountsArr : number[] = [];
+
+for(let i = 0; i < 12; i++){
+    let monthyIssueCount: number = Math.floor(Math.random()*(50) + 5);
+    monthlyIndvidualIssueCountsArr.push(monthyIssueCount);
+}
+
+console.log(monthlyIndvidualIssueCountsArr);
+
+//Objects
+let employee: {
+    organization: string,
+    designation: string,
+    team: string,
+};
+

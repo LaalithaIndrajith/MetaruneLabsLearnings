@@ -19,13 +19,13 @@ inputEls.forEach(inputEl => {
     Basic Types in Typescript
 */
 
-const econimicReliefAllowance = 0.2;
+const economicReliefAllowance = 0.2;
 let basicSalary:number;
 let afterERASalary:number;
 let totalSalary:number;
 
 basicSalary = 150000;
-afterERASalary = basicSalary * (1 + econimicReliefAllowance);
+afterERASalary = basicSalary * (1 + economicReliefAllowance);
 
 console.log(`Your total salary after ERA is -> ${afterERASalary}`);
 
@@ -49,14 +49,14 @@ let employeeID: string;
 let isPermanent: boolean;
 
 // Arrays
-let monthlyIndvidualIssueCountsArr : number[] = [];
+let monthlyIndividualIssueCountsArr : number[] = [];
 
 for(let i = 0; i < 12; i++){
-    let monthyIssueCount: number = Math.floor(Math.random()*(50) + 5);
-    monthlyIndvidualIssueCountsArr.push(monthyIssueCount);
+    let monthlyIssueCount: number = Math.floor(Math.random()*(50) + 5);
+    monthlyIndividualIssueCountsArr.push(monthlyIssueCount);
 }
 
-console.log(monthlyIndvidualIssueCountsArr);
+console.log(monthlyIndividualIssueCountsArr);
 
 //Tuple
 let person:[number,string] = [120058.52, 'Software Engineer'];

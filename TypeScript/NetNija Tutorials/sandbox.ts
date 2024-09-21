@@ -29,20 +29,21 @@ afterERASalary = basicSalary * (1 + econimicReliefAllowance);
 
 console.log(`Your total salary after ERA is -> ${afterERASalary}`);
 
-let overTimeCal = (basicSalary:number, rosterPattern:number, otHours:number, otType:number) => {
+//Set the return type of the function
+let overTimeCal = (basicSalary:number, rosterPattern:number, otHours:number, otType:number):number => {
 
     let perHourRate:number;
     perHourRate = basicSalary / (rosterPattern * 8);
 
-    return (otHours * otType * perHourRate).toFixed(2);
+    return (otHours * otType * perHourRate);
 }
-
+totalSalary = afterERASalary + overTimeCal(basicSalary, 23, 16, 2);
 console.log(`Your salary Overtime allowances is -> ${overTimeCal(basicSalary, 23, 16, 2)}`);
+console.log(`Your total Salary is -> ${totalSalary.toFixed(2)}`);
 
 /* 
     Explicit Types
 */
-
 let employeeNum: number;
 let employeeID: string;
 let isPermanent: boolean;
@@ -56,6 +57,17 @@ for(let i = 0; i < 12; i++){
 }
 
 console.log(monthlyIndvidualIssueCountsArr);
+
+//Tuple
+let person:[number,string] = [120058.52, 'Software Engineer'];
+
+console.log(person[0].toFixed(1));
+console.log(person[1].toUpperCase());
+
+//Enum
+enum Size {ExtraSmall = 'xs', Small = 's', Medium = 'm', Large = 'l', ExtraLarge = 'xl'}
+let tshirtSize : Size = Size.ExtraLarge;
+console.log(`Your T-Shirt size is ${(tshirtSize.toUpperCase())}`);
 
 //Objects
 let employee: {

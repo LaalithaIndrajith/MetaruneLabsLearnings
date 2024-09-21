@@ -5,7 +5,7 @@ This repository contains my personal learning journey and experiments with TypeS
 ## Folder Structure
 ### 1. `TypeScript/NetNinja Tutorials`
 
-This folder contains exercises based on the [TypeScript Tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&si=RtXPltBz8TkgvBP-) video series by **The Net Ninja** on YouTube. The tutorials cover various aspects of TypeScript, including basic concepts, advanced features, and TypeScript integration in real-world projects.
+This folder contains exercises based on the [TypeScript Tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&si=RtXPltBz8TkgvBP-) video series by **Net Ninja** on YouTube. The tutorials cover various aspects of TypeScript, including basic concepts, advanced features, and TypeScript integration in real-world projects.
 
 
 

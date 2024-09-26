@@ -2,25 +2,25 @@
   {
     "id": 1,
     "name": "Book",
-    "price": 10.99,
-    "imgUrl": "/imgs/book.jpg"
+    "price": 99.99,
+    "imgUrl": "/images/book.jpg"
   },
   {
     "id": 2,
-    "name": "Computer",
-    "price": 1199,
-    "imgUrl": "/imgs/computer.jpg"
+    "name": "Macbook Air M2",
+    "price": 249999.99,
+    "imgUrl": "/images/computer.jpg"
   },
   {
     "id": 3,
     "name": "Banana",
-    "price": 1.05,
-    "imgUrl": "/imgs/banana.jpg"
+    "price": 44.99,
+    "imgUrl": "/images/banana.jpg"
   },
   {
     "id": 4,
-    "name": "Car",
-    "price": 14000,
-    "imgUrl": "/imgs/car.jpg"
+    "name": "Walkswagon Beatle",
+    "price": 56000000,
+    "imgUrl": "/images/car.jpg"
   }
 ]

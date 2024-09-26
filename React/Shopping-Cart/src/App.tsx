@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Container>
+      <Container className="mt-3">
         <Routes>
           <Route path="/" element={<Home />}>
             Home

@@ -4,10 +4,11 @@ import { Home } from "./pages/Home";
 import { Store } from "./pages/Store";
 import { About } from "./pages/About";
 import { Navbar } from "./components/Navbar";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
 function App() {
   return (
-    <>
+    <ShoppingCartProvider>
       <Navbar></Navbar>
       <Container className="mt-3">
         <Routes>
@@ -22,7 +23,7 @@ function App() {
           </Route>
         </Routes>
       </Container>
-    </>
+    </ShoppingCartProvider>
   );
 }
 

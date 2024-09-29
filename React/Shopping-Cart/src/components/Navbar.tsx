@@ -6,8 +6,10 @@ import {
   Form,
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
 export function Navbar() {
+  const { openCart, cartQuantity } = useShoppingCart();
   return (
     <NavbarBs className="shadow-sm">
       <Container>
@@ -29,6 +31,7 @@ export function Navbar() {
           </Nav>
           <Form className="d-flex" role="search">
             <Button
+              onClick={openCart}
               style={{
                 width: "2.5rem",
                 height: "2.5rem",
@@ -57,7 +60,7 @@ export function Navbar() {
                   border: "2px solid white",
                 }}
               >
-                3
+                {cartQuantity}
               </div>
             </Button>
           </Form>
